@@ -1,0 +1,82 @@
+#+title: Socle interministériel des logiciels libres
+
+Présentation en tableau des données publiées sous forme de [[https://references.modernisation.gouv.fr/sites/default/files/SILL%25202018%2520-%2520socle%2520interministeriel%2520de%2520logiciels%2520libres.pdf][PDF]] à
+partir de [[https://references.modernisation.gouv.fr/socle-logiciels-libres][la page du SILL]].
+
+* Sécurité
+** authentification
+** chiffrement
+** équipement de sécurité informatique
+
+* Espace utilisateur et Canal
+** consultation et édition de document
+** messagerie et agenda et contact
+** navigateur web
+** accessibilité
+** outils de productivité
+
+* Données et Contenu
+** compression et décompression
+
+* Equipements matériels
+** périphérique
+
+* Opérations
+** gestion de stockage
+** synchronisation, réplication et déduplication
+** Déploiement / Gestion d'actif et de configuration
+** Service Level Management
+
+* Conception et Développement
+** Environnement de développement intégré (IDE)
+** Développement d'application Web
+** Gestion des Anomalies
+** Gestion du code source
+** Installation, Packaging, Diffusion et Distribution
+** Outils d’analyse, de modélisation et de gestion de patrimoine
+** Qualité et sécurité du code source
+** Test et Intégration
+
+* Orchestration et logique métier
+** Outil collaboratif
+** Moteur de recherche
+** Serveur d'application
+
+* Données et Contenu
+** Gestionnaire de données Relationnel
+** Gestionnaire de données Non relationnel
+
+* Composants logiciels / Système et Virtualisation
+** Système d'exploitation serveur
+
+* Opérations
+** Gestion d'exploitation
+** Sauvegarde Serveur
+** Disponibilité et continuité
+** Supervision et hypervision
+
+* Données et Contenu
+** Gestion des accès aux données
+
+* Sécurité
+** Antivirus et antimalware
+** Habilitation
+** Authentification
+** Filtrage de contenu et pare-feu logiciel
+
+* Espace utilisateur et Canal
+** Gestion des accès aux canaux
+
+* Orchestration et logique métier
+** Serveur d'application
+** Serveur de mail
+
+* Intégration et Échanges
+** Moniteur de transfert
+** Serveur d'impression
+
+* Composants logiciels / Système et Virtualisation
+** Virtualisation serveur
+** Virtualisation stockage
+** Outil système et virtualisation
+
