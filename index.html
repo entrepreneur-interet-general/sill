@@ -18,6 +18,7 @@
       <h2>Socle interministériel des logiciels libres 2018</h2>
       <ul class="nav nav-tabs">
 	<li class="active"><a data-toggle="tab" href="#presentation">Présentation</a></li>
+	<li><a data-toggle="tab" href="#legende">Légende</a></li>
 	<li><a data-toggle="tab" href="#tableau">Tableau</a></li>
       </ul>
 
@@ -27,18 +28,49 @@
 
 	  <p>Le <a href="https://references.modernisation.gouv.fr/socle-logiciels-libres"
 		   target="new">Socle interministériel des logiciels
-		   libres</a> est une liste de logiciels libres
-		   servant à la modernisation des systèmes
-		   d'information de l'État.</p>
-	  
+	      libres</a> est une liste de logiciels libres
+	    servant à la modernisation des systèmes
+	    d'information de l'État.</p>
+
 	  <p>Cette page <strong>non-officielle</strong> propose une
 	    exploration dynamique de la liste.</p>
 
 	  <p>Vous pouvez améliorer le contenu de cette page via
-	  son <a href="https://github.com/entrepreneur-interet-general/sill"
-	  target="new">dépôt git</a> et/ou
-	  <a href="https://github.com/entrepreneur-interet-general/sill/issues/new"
-	  target="new">m'envoyant</a> une question/suggestion.</p>
+	    son <a href="https://github.com/entrepreneur-interet-general/sill"
+		   target="new">dépôt git</a> et/ou
+	    <a href="https://github.com/entrepreneur-interet-general/sill/issues/new"
+	       target="new">m'envoyant</a> une question/suggestion.</p>
+
+	</div>
+
+	<div id="legende" class="tab-pane fade active">
+	  <h3>Statut</h3>
+
+	  <ul class="org-ul">
+	    <li>R = recommandé</li>
+	    <li>O = en observation</li>
+	    <li>FV = en fin de vie</li>
+	  </ul>
+
+	  <h3>Colonne Windows</h3>
+
+	  <ul class="org-ul">
+	    <li>2 = versions x86 et x64</li>
+	    <li>x = non précisé</li>
+	  </ul>
+
+	  <h3>Colonne Linux</h3>
+
+	  <ul class="org-ul">
+	    <li>version distribution = version courante de la distribution Linux utilisée</li>
+	    <li>i = inutile ; fonctionnalité existante nativement</li>
+	  </ul>
+
+	  <p>
+	    Les lignes en italique correspondent à des extensions, des modules
+	    complémentaires ; le logiciel parent est alors indiqué dans la colonne
+	    "Logiciel parent"
+	  </p>
 
 	</div>
 
@@ -46,2579 +78,2579 @@
 	  <h3>Tableau</h3>
 	  
 	  <!-- <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides"> -->
-	  <table id="example" class="display" cellspacing="0" width="100%">
-	    <thead>
-	      <tr>
-		<th>Secteur</th>
-		<th>Composant</th>
-		<th>FONCTIONNALITÉ</th>
-		<th>CAS D’USAGE</th>
-		<th>LOGICIEL</th>
-		<th>STATUT</th>
-		<th>LICENCE</th>
-		<th>LOGICIEL PARENT</th>
-		<th>FORMAT ASSOCIÉ</th>
-		<th>Win X86/x64</th>
-		<th>Version</th>
-		<th>LINUX MIMO</th>
-		<th class="org-right">ANDROID</th>
-		<th>VERSION FRANÇAISE</th>
-	      </tr>
-	    </thead>
-	    <tbody>
-	      <tr>
-		<td>Sécurité</td>
-		<td>authentification</td>
-		<td>Gestion de mots de passe</td>
-		<td>&#xa0;</td>
-		<td>KeePass</td>
-		<td>R</a></td>
-		<td>GPL2</td>
-		<td>&#xa0;</td>
-		<td>KDB</td>
-		<td>X</td>
-		<td>2,3</td>
-		<td>2,3</td>
-		<td class="org-right">Keepass2 Android Offline</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Sécurité</td>
-		<td>chiffrement</td>
-		<td>Chiffrement de disques</td>
-		<td>&#xa0;</td>
-		<td>VeraCrypt</td>
-		<td>O</td>
-		<td>AGPL</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>1.18a</td>
-		<td>1.18a</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Sécurité</td>
-		<td>équipement de sécurité informatique</td>
-		<td>Effacement complet de tous les supports magnétiques d’une machine.</td>
-		<td>&#xa0;</td>
-		<td>DBAN «Darik's Boot and Nuke»</td>
-		<td>R</td>
-		<td>GPL2 / LGPL2</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>2.3.0</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>consultation et édition de document</td>
-		<td>Suite bureautique</td>
-		<td>&#xa0;</td>
-		<td>LibreOffice</td>
-		<td>R</td>
-		<td>MPL2</td>
-		<td>&#xa0;</td>
-		<td>ODF 1.2</td>
-		<td>2</td>
-		<td>5,4</td>
-		<td>5,4</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>consultation et édition de document</td>
-		<td><i>Diffusion multiformat</i></td>
-		<td>&#xa0;</td>
-		<td>MultiDiff</td>
-		<td>R</td>
-		<td>LGPL2.1</td>
-		<td>LibreOffice</td>
-		<td>&#xa0;</td>
-		<td>2</td>
-		<td>1.3.0</td>
-		<td>1.3.0</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>consultation et édition de document</td>
-		<td><i>Cartes géographie</i></td>
-		<td>&#xa0;</td>
-		<td>Ooo.HG</td>
-		<td>R</td>
-		<td>Creative Commons</td>
-		<td>LibreOffice</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>9,12</td>
-		<td>9,12</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>consultation et édition de document</td>
-		<td><i>Correction grammaticale</i></td>
-		<td>&#xa0;</td>
-		<td>Grammalecte</td>
-		<td>R</td>
-		<td>GPL3</td>
-		<td>LibreOffice</td>
-		<td>&#xa0;</td>
-		<td>2</td>
-		<td>0.6.1</td>
-		<td>0.6.1</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>consultation et édition de document</td>
-		<td><i>Syntaxe des formules</i></td>
-		<td>&#xa0;</td>
-		<td>Syntaxe des formules</td>
-		<td>R</td>
-		<td>BSD</td>
-		<td>LibreOffice</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>1,1</td>
-		<td>1,1</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>consultation et édition de document</td>
-		<td><i>Orientation de la page</i></td>
-		<td>&#xa0;</td>
-		<td>PortraitOrLandscape</td>
-		<td>R</td>
-		<td>LGPL3</td>
-		<td>LibreOffice</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>2</td>
-		<td>2</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>consultation et édition de document</td>
-		<td>Correction anglicismes</td>
-		<td>&#xa0;</td>
-		<td>FranceTerme</td>
-		<td>R</td>
-		<td>CECILL-C</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td class="org-right">Version distribution</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>consultation et édition de document</td>
-		<td>Éditeur de textes</td>
-		<td>&#xa0;</td>
-		<td>Notepad++</td>
-		<td>R</td>
-		<td>GPL</td>
-		<td>&#xa0;</td>
-		<td>TXT</td>
-		<td>X</td>
-		<td>7.5.3</td>
-		<td>i</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>consultation et édition de document</td>
-		<td>Lecture simple de fichier PDF</td>
-		<td>sans remplissage de formulaire ni vérification de signature</td>
-		<td>SumatraPDF</td>
-		<td>R</td>
-		<td>GPL3</td>
-		<td>&#xa0;</td>
-		<td>PDF</td>
-		<td>X</td>
-		<td>3.1.2</td>
-		<td>utiliser Evince</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>consultation et édition de document</td>
-		<td>Outil de fusion, extraction et découpage de fichiers PDF. Permet aussi de changer le sens des pages.</td>
-		<td>nécessite JRE 8 minimum</td>
-		<td>PDFSam Basic</td>
-		<td>O</td>
-		<td>AGPL3</td>
-		<td>&#xa0;</td>
-		<td>PDF</td>
-		<td>X</td>
-		<td>3.3.2</td>
-		<td>3.3.2</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>consultation et édition de document</td>
-		<td>Éditeur HTML</td>
-		<td>&#xa0;</td>
-		<td>BlueGriffon</td>
-		<td>R</td>
-		<td>LGPL/GPL/MPL</td>
-		<td>&#xa0;</td>
-		<td>HTML</td>
-		<td>X</td>
-		<td>3.0'</td>
-		<td>3.0'</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>consultation et édition de document</td>
-		<td>Système d’information géographique</td>
-		<td>&#xa0;</td>
-		<td>Qgis</td>
-		<td>R</td>
-		<td>GPL</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>2,18</td>
-		<td>2,18</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>consultation et édition de document</td>
-		<td>PAO</td>
-		<td>&#xa0;</td>
-		<td>Scribus</td>
-		<td>R</td>
-		<td>GPL2</td>
-		<td>&#xa0;</td>
-		<td>SLA</td>
-		<td>X</td>
-		<td>1,4</td>
-		<td>1,4</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>consultation et édition de document</td>
-		<td>Lecteur multimédia</td>
-		<td>&#xa0;</td>
-		<td>VLC</td>
-		<td>R</td>
-		<td>GPL</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>2.2.6</td>
-		<td>2.2.6</td>
-		<td class="org-right">2,06</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>consultation et édition de document</td>
-		<td>Montage vidéo</td>
-		<td>&#xa0;</td>
-		<td>Avidemux</td>
-		<td>O</td>
-		<td>GPL2</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>2,6</td>
-		<td>2,6</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>consultation et édition de document</td>
-		<td>Enregistrement et édition de sons</td>
-		<td>&#xa0;</td>
-		<td>Audacity</td>
-		<td>R</td>
-		<td>GPL2</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>2,1</td>
-		<td>2,1</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>consultation et édition de document</td>
-		<td>Dessin (vectoriel)</td>
-		<td>&#xa0;</td>
-		<td>Inkscape</td>
-		<td>O</td>
-		<td>GPL</td>
-		<td>&#xa0;</td>
-		<td>SVG</td>
-		<td>X</td>
-		<td>0,91</td>
-		<td>0,91</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>consultation et édition de document</td>
-		<td>Dessin (matriciel)</td>
-		<td>&#xa0;</td>
-		<td>The Gimp</td>
-		<td>R</td>
-		<td>GPL3</td>
-		<td>&#xa0;</td>
-		<td>XCF</td>
-		<td>X</td>
-		<td>2.8.22</td>
-		<td>2.8.22</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>consultation et édition de document</td>
-		<td>Lecteur de fichiers ODF sous Android</td>
-		<td>&#xa0;</td>
-		<td>OpenDocument Reader</td>
-		<td>R</td>
-		<td>GPL</td>
-		<td>&#xa0;</td>
-		<td>ODF</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td class="org-right">2,14</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>consultation et édition de document</td>
-		<td>Lecteur de fichiers PDF sous Android</td>
-		<td>&#xa0;</td>
-		<td>MuPDF</td>
-		<td>R</td>
-		<td>GPL</td>
-		<td>&#xa0;</td>
-		<td>PDF</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td class="org-right">1,11</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>consultation et édition de document</td>
-		<td>Schémas</td>
-		<td>&#xa0;</td>
-		<td>Dia</td>
-		<td>R</td>
-		<td>GPL2</td>
-		<td>&#xa0;</td>
-		<td>nombreux</td>
-		<td>X</td>
-		<td>0,97</td>
-		<td>0,97</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>messagerie et agenda et contact</td>
-		<td>Courrielleur</td>
-		<td>&#xa0;</td>
-		<td>Thunderbird</td>
-		<td>R</td>
-		<td>MPL2</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>52</td>
-		<td>52</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>messagerie et agenda et contact</td>
-		<td>Client de messagerie</td>
-		<td>&#xa0;</td>
-		<td>RoundCube</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>1.4.1</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>messagerie et agenda et contact</td>
-		<td>Client de messagerie instantanée</td>
-		<td>&#xa0;</td>
-		<td>Jitsi</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>2,8</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>messagerie et agenda et contact</td>
-		<td>Client FTP</td>
-		<td>&#xa0;</td>
-		<td>Filezilla</td>
-		<td>R</td>
-		<td>GPL</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>3,27</td>
-		<td>3,27</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>navigateur web</td>
-		<td>Navigateur</td>
-		<td>&#xa0;</td>
-		<td>Firefox ESR</td>
-		<td>R</td>
-		<td>MPL2</td>
-		<td>&#xa0;</td>
-		<td>HTML</td>
-		<td>X</td>
-		<td>ESR 52</td>
-		<td>ESR 52</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>navigateur web</td>
-		<td>Pour voir une page dans Firefox avec le rendu IE</td>
-		<td>&#xa0;</td>
-		<td>IE Tab V2</td>
-		<td>R</td>
-		<td>GPL V.2.1</td>
-		<td>Firefox</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>6,2</td>
-		<td>non</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>navigateur web</td>
-		<td>Pour utiliser ses codes</td>
-		<td>&#xa0;</td>
-		<td>KeeFox</td>
-		<td>O</td>
-		<td>GPL V2.0</td>
-		<td>Firefox</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>1.7.2</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>navigateur web</td>
-		<td>Bloqueur des publicités et des pisteurs</td>
-		<td>&#xa0;</td>
-		<td>Ublock Origin</td>
-		<td>R</td>
-		<td>GPL3</td>
-		<td>Firefox</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>1</td>
-		<td>1</td>
-		<td class="org-right">1</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>navigateur web</td>
-		<td>Correction grammaticale</td>
-		<td>&#xa0;</td>
-		<td>Grammalecte</td>
-		<td>R</td>
-		<td>GPL3</td>
-		<td>Firefox</td>
-		<td>&#xa0;</td>
-		<td>2</td>
-		<td>0.5.x</td>
-		<td>0.5x</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>navigateur web</td>
-		<td>Recherche sur internet</td>
-		<td>&#xa0;</td>
-		<td>Qwant</td>
-		<td>R</td>
-		<td>Licence MIT/X11</td>
-		<td>Firefox</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>3</td>
-		<td>3</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>accessibilité</td>
-		<td>Lecteur d’écran</td>
-		<td>&#xa0;</td>
-		<td>NVDA</td>
-		<td>R</td>
-		<td>GPL2</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>2016,3</td>
-		<td>0</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>outils de productivité</td>
-		<td>Grapheur d'idées</td>
-		<td>&#xa0;</td>
-		<td>Freeplane</td>
-		<td>R</td>
-		<td>GPL2</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>1,6</td>
-		<td>1,5</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>outils de productivité</td>
-		<td>Gestion de projet</td>
-		<td>nécessite une version JAVA 32 bits</td>
-		<td>ProjectLibre</td>
-		<td>R</td>
-		<td>CPA</td>
-		<td>&#xa0;</td>
-		<td>POD et XML</td>
-		<td>X</td>
-		<td>1,7</td>
-		<td>1,7</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Données et contenu</td>
-		<td>compression et décompression</td>
-		<td>Compression</td>
-		<td>&#xa0;</td>
-		<td>7zip</td>
-		<td>R</td>
-		<td>LGPL V2</td>
-		<td>&#xa0;</td>
-		<td>nombreux</td>
-		<td>X</td>
-		<td>16,04</td>
-		<td>i</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Équipements matériels</td>
-		<td>périphérique</td>
-		<td>Capture d'écran</td>
-		<td>&#xa0;</td>
-		<td>GreenShot</td>
-		<td>R</td>
-		<td>GPL</td>
-		<td>&#xa0;</td>
-		<td>nombreux</td>
-		<td>X</td>
-		<td>1.2.9</td>
-		<td>i</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>gestion de stockage</td>
-		<td>Défragmentation</td>
-		<td>&#xa0;</td>
-		<td>UltraDefrag</td>
-		<td>R</td>
-		<td>GPL</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>7</td>
-		<td>i</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>gestion de stockage</td>
-		<td>Création de DVD vidéo avec un menu de navigation.</td>
-		<td>&#xa0;</td>
-		<td>DVD Styler</td>
-		<td>O</td>
-		<td>GPL</td>
-		<td>&#xa0;</td>
-		<td>nombreux</td>
-		<td>X</td>
-		<td>3.0.4</td>
-		<td>3.0.4</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>synchronisation, réplication et déduplication</td>
-		<td>Renommage de fichiers par lots</td>
-		<td>&#xa0;</td>
-		<td>Metamorphose</td>
-		<td>O</td>
-		<td>GPL2</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>1,1</td>
-		<td>1,1</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>synchronisation, réplication et déduplication</td>
-		<td>Synchronisation Sauvegarde</td>
-		<td>&#xa0;</td>
-		<td>FreeFileSync</td>
-		<td>R</td>
-		<td>GPL3</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>9,5</td>
-		<td>9,5</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Déploiement Gestion d’actif et de configuration</td>
-		<td>Inventaire, télédéploiement et découverte du réseau</td>
-		<td>&#xa0;</td>
-		<td>OCS Inventory NG serveur</td>
-		<td>R</td>
-		<td>GPL2</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>2,3</td>
-		<td>2,3</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Déploiement Gestion d’actif et de configuration</td>
-		<td>Inventaire, télédéploiement et découverte du réseau</td>
-		<td>&#xa0;</td>
-		<td>Agent OCS</td>
-		<td>R</td>
-		<td>GPL2</td>
-		<td>OCS</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>2,3</td>
-		<td>2,3</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Déploiement Gestion d’actif et de configuration</td>
-		<td><i>Récupérer les informations de sécurité</i></td>
-		<td>&#xa0;</td>
-		<td>Security</td>
-		<td>O</td>
-		<td>GPL2</td>
-		<td>OCS</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Déploiement Gestion d’actif et de configuration</td>
-		<td><i>Récupérer les informations d'un logiciel spécifique dans un fichier texte</i></td>
-		<td>&#xa0;</td>
-		<td>CustomAppli/fr</td>
-		<td>O</td>
-		<td>GPL2</td>
-		<td>OCS</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Déploiement Gestion d’actif et de configuration</td>
-		<td><i>Récupérer les licences Office</i></td>
-		<td>&#xa0;</td>
-		<td>MSOfficeKeys</td>
-		<td>O</td>
-		<td>GPL2</td>
-		<td>OCS</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Déploiement Gestion d’actif et de configuration</td>
-		<td><i>Récupérer la liste des services et leur état</i></td>
-		<td>&#xa0;</td>
-		<td>WinServices/fr</td>
-		<td>O</td>
-		<td>GPL2</td>
-		<td>OCS</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>&#xa0;</td>
-		<td>2,1</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Déploiement Gestion d’actif et de configuration</td>
-		<td>Gestion de parc et suivi d'incidents</td>
-		<td>&#xa0;</td>
-		<td>GLPI</td>
-		<td>R</td>
-		<td>GPL2</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>9.1.6</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Déploiement Gestion d’actif et de configuration</td>
-		<td><i>Rapports supplémentaires à ceux inclus dans GLPI</i></td>
-		<td>&#xa0;</td>
-		<td>Reports(rapports)</td>
-		<td>R</td>
-		<td>AGPL3</td>
-		<td>GLPI</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>1,10</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Déploiement Gestion d’actif et de configuration</td>
-		<td><i>Export en pdf des fiches GLPI</i></td>
-		<td>&#xa0;</td>
-		<td>PDF (impression de pdf)</td>
-		<td>R</td>
-		<td>AGPL3</td>
-		<td>GLPI</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>1,2</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Déploiement Gestion d’actif et de configuration</td>
-		<td><i>Serveur de services web permettant à une application externe d'interroger et de piloter GLPI</i></td>
-		<td>&#xa0;</td>
-		<td>WebService</td>
-		<td>R</td>
-		<td>AGPL3</td>
-		<td>GLPI</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>1,7</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Déploiement Gestion d’actif et de configuration</td>
-		<td><i>Automatisation de l'import OCS Inventory-NG</i></td>
-		<td>Gestion parc</td>
-		<td>OCS Inventory ng</td>
-		<td>R</td>
-		<td>GPL2+</td>
-		<td>GLPI</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>1.4.3</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Déploiement Gestion d’actif et de configuration</td>
-		<td><i>Inventaire, télédéploiement et découverte du réseau</i></td>
-		<td>&#xa0;</td>
-		<td>FusionInventory</td>
-		<td>O</td>
-		<td>AGPL3+</td>
-		<td>GLPI</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>9.1+1.1</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Déploiement Gestion d’actif et de configuration</td>
-		<td><i>Affichage de GLPI pour terminaux mobiles et tablettes</i></td>
-		<td>&#xa0;</td>
-		<td>Mobile</td>
-		<td>O</td>
-		<td>GPL2+</td>
-		<td>GLPI</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>&#xa0;</td>
-		<td>1.1.6</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Déploiement Gestion d’actif et de configuration</td>
-		<td><i>Déinstallation d’objets inventoriés</i></td>
-		<td>&#xa0;</td>
-		<td>Uninstall</td>
-		<td>R</td>
-		<td>GPL2+</td>
-		<td>GLPI</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>0.90 1.4</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Déploiement Gestion d’actif et de configuration</td>
-		<td><i>Gestion des stocks et demandes par une entité différente de celles définies pour la délégation de gestion</i></td>
-		<td>&#xa0;</td>
-		<td>Geststock</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>GLPI</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>1.0.0</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Déploiement Gestion d’actif et de configuration</td>
-		<td><i>Injection de données dans GLPI à l'aide de fichiers CSV</i></td>
-		<td>&#xa0;</td>
-		<td>Data Injection</td>
-		<td>R</td>
-		<td>GPL2+</td>
-		<td>GLPI</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>2.4.2</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Déploiement Gestion d’actif et de configuration</td>
-		<td><i>Notifications supplémentaires à celles incluses dans GLPI</i></td>
-		<td>Gestion des tickets</td>
-		<td>Additional Alerts</td>
-		<td>R</td>
-		<td>GPL2+</td>
-		<td>GLPI</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>1.9.0</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Déploiement Gestion d’actif et de configuration</td>
-		<td><i>Escalade de tickets</i></td>
-		<td>&#xa0;</td>
-		<td>Escalation</td>
-		<td>R</td>
-		<td>GPL2+</td>
-		<td>GLPI</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>0.85+1.0</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Déploiement Gestion d’actif et de configuration</td>
-		<td><i>Options de configuration supplémentaires</i></td>
-		<td>&#xa0;</td>
-		<td>Behaviors(Comportements)</td>
-		<td>R</td>
-		<td>AGPL3</td>
-		<td>GLPI</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>1.6.0</td>
-		<td class="org-right">&#xa0;</td>
-		<td>X</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Service Level Management</td>
-		<td><i>Affichage graphique des délais de prise en compte des incidents + indicateurs sous forme de rapports</i></td>
-		<td>&#xa0;</td>
-		<td>TimeLineTicket</td>
-		<td>O</td>
-		<td>GPL2+</td>
-		<td>GLPI</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Environnement de développement intégré (IDE)</td>
-		<td>Environnement de développement</td>
-		<td>&#xa0;</td>
-		<td>Eclipse</td>
-		<td>R</td>
-		<td>EPL</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>4,7</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Environnement de développement intégré (IDE)</td>
-		<td><i>Plugin de génération de tout ou partie du code</i></td>
-		<td>&#xa0;</td>
-		<td>Acceleo</td>
-		<td>R</td>
-		<td>EPL</td>
-		<td>Eclipse</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>3.7.2</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Environnement de développement intégré (IDE)</td>
-		<td>Environnement de développement</td>
-		<td>&#xa0;</td>
-		<td>Visual Studio Code</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>Version Distribution</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Développement d’application web</td>
-		<td>Aide au développement</td>
-		<td>&#xa0;</td>
-		<td>Spring Boot</td>
-		<td>O</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>1.5.8</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Développement d’application web</td>
-		<td>Environnement d'exécution</td>
-		<td>&#xa0;</td>
-		<td>OpenJDK</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>8</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Gestion des Anomalies</td>
-		<td>Outil de remontée de bug</td>
-		<td>&#xa0;</td>
-		<td>Mantis BT</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>1.X</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Gestion du code source</td>
-		<td>Outil de gestion des configurations (serveur)</td>
-		<td>&#xa0;</td>
-		<td>Git</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>Version</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Installation, Package, Diffusion et Distribution</td>
-		<td>Outil de gestion des dépendances entre les différents composants d'un projet et cycle de vie</td>
-		<td>&#xa0;</td>
-		<td>Maven</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>3.5.2</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Installation, Package, Diffusion et Distribution</td>
-		<td>Outil de gestion des dépendances</td>
-		<td>&#xa0;</td>
-		<td>Yarn</td>
-		<td>O</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>1.3.2</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Installation, Package, Diffusion et Distribution</td>
-		<td>Dépôt d'artéfacts</td>
-		<td>&#xa0;</td>
-		<td>Nexus</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>3,4</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Installation, Package, Diffusion et Distribution</td>
-		<td>Gestionnaire de paquets pour Node.js</td>
-		<td>&#xa0;</td>
-		<td>NPM</td>
-		<td>O</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>3.10.X</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Outils d’analyse, de modélisation et de gestion du patrimoine</td>
-		<td>Outil de maquettage IHM (statique et/ou dynamique)</td>
-		<td>&#xa0;</td>
-		<td>Pencil</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>3,0</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Qualité et sécurité du code source</td>
-		<td>Tableau de bord d'indicateurs de qualité</td>
-		<td>&#xa0;</td>
-		<td>SonarQube et plugins FindBugs Checkstyle PMD</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>6,3</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Qualité et sécurité du code source</td>
-		<td>Vérification de la conformité de l'application aux règles d'accessibilité</td>
-		<td>&#xa0;</td>
-		<td>Asqatasun</td>
-		<td>O</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>4.0.3</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Qualité et sécurité du code source</td>
-		<td>Vérification de la conformité de l'application aux règles d'accessibilité</td>
-		<td>&#xa0;</td>
-		<td>Tanaguru</td>
-		<td>O</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>4.0.3</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Qualité et sécurité du code source</td>
-		<td>Couverture du code</td>
-		<td>&#xa0;</td>
-		<td>JaCoCo</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>0.7.9</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Test et intégration</td>
-		<td>Outil de gestion des tests unitaires</td>
-		<td>&#xa0;</td>
-		<td>JUnit</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>4,12</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Test et intégration</td>
-		<td>Outil d'injection afin tester les couches basses</td>
-		<td>&#xa0;</td>
-		<td>Fitnesse</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>20161106</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Test et intégration</td>
-		<td>Outil d'injection afin tester les couches basses</td>
-		<td>&#xa0;</td>
-		<td>DbFit</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>3.2.0</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Test et intégration</td>
-		<td>Robot de test / Injecteurs</td>
-		<td>&#xa0;</td>
-		<td>Jmeter</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>3,1</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Test et intégration</td>
-		<td>Outil d'aide aux tests techniques</td>
-		<td>Tests orientés Web Services</td>
-		<td>SoapUI</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>5.2.x</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Test et intégration</td>
-		<td>Outil d'aide à la livraison (dépôt, intégration continue&#x2026;)</td>
-		<td>&#xa0;</td>
-		<td>Jenkins</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>2.x</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Test et intégration</td>
-		<td>Automatisation des tests Web</td>
-		<td>&#xa0;</td>
-		<td>Selenium Server</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>3,0</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Test et intégration</td>
-		<td>Automatisation des tests Web</td>
-		<td>&#xa0;</td>
-		<td>Selenium IDE</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>Firefox</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>2,9</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Test et intégration</td>
-		<td>Automatisation des tests</td>
-		<td>&#xa0;</td>
-		<td>Squash TA</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Test et intégration</td>
-		<td>Gestion des campagnes de tests</td>
-		<td>&#xa0;</td>
-		<td>TestLink</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>1.9.14</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Test et intégration</td>
-		<td>Gestion des campagnes de tests</td>
-		<td>&#xa0;</td>
-		<td>Squash TM</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>1.14.0</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Test et intégration</td>
-		<td>Génération / Gestion des jeux de données</td>
-		<td>&#xa0;</td>
-		<td>Jailer</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>5.5.2</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Test et intégration</td>
-		<td>Navigateur web</td>
-		<td>poste développeur</td>
-		<td>Chromium</td>
-		<td>O</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>Version Distribution</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Test et intégration</td>
-		<td>Base de données</td>
-		<td>poste développeur</td>
-		<td>H2 Database Engine</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>1.4.196</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Test et intégration</td>
-		<td>Outil de monitoring</td>
-		<td>&#xa0;</td>
-		<td>JavaMelody</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>1,70</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Conception et développement</td>
-		<td>Test et intégration</td>
-		<td>Reprise des données</td>
-		<td>Outil d'automatisation de la reprise de données</td>
-		<td>"Talend Open Studio for Data Integration (Basic)"</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>6.3.x</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Orchestration et logique métier</td>
-		<td>Outil collaboratif</td>
-		<td>Portail de gestion de projet</td>
-		<td>&#xa0;</td>
-		<td>Redmine</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>3.X</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Orchestration et logique métier</td>
-		<td>Outil collaboratif</td>
-		<td>Plateforme de développement</td>
-		<td>&#xa0;</td>
-		<td>GitLab Community Edition</td>
-		<td>O</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>9.0.10</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Orchestration et logique métier</td>
-		<td>Outil collaboratif</td>
-		<td>Outil pour améliorer la collaboration entre les différentes parties prenantes</td>
-		<td>Utilisé au sein d'une forge Gestion des droits délégués à la forge</td>
-		<td>MediaWiki</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>1.25.2</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Orchestration et logique métier</td>
-		<td>Outil collaboratif</td>
-		<td>Forum</td>
-		<td>Utilisé au sein d'une forge</td>
-		<td>phpBB</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>3.0.9</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Orchestration et logique métier</td>
-		<td>Outil collaboratif</td>
-		<td>Messagerie instantanée</td>
-		<td>&#xa0;</td>
-		<td>RocketChat</td>
-		<td>O</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>Version Distribution</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Orchestration et logique métier</td>
-		<td>Moteur de recherche</td>
-		<td>Indexation et recherche plein texte</td>
-		<td>En mode cluster</td>
-		<td>ElasticSearch</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>5,6</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Orchestration et logique métier</td>
-		<td>Moteur de recherche</td>
-		<td>Indexation et recherche plein texte</td>
-		<td>Limité à 1 serveur</td>
-		<td>Apache SolR</td>
-		<td>FV</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Orchestration et logique métier</td>
-		<td>Serveur d’application</td>
-		<td>Serveur Java</td>
-		<td>&#xa0;</td>
-		<td>Tomcat</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>7.x</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Orchestration et logique métier</td>
-		<td>Serveur d’application</td>
-		<td>Plateforme Javascript</td>
-		<td>&#xa0;</td>
-		<td>serveur NodeJS</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>X</td>
-		<td>6.X</td>
-		<td>X</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Données et contenu</td>
-		<td>Gestionnaire de données Relationnel</td>
-		<td>Base de données transactionnelle</td>
-		<td>Base de production</td>
-		<td>PostgreSQL</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>9,5</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Données et contenu</td>
-		<td>Gestionnaire de données Relationnel</td>
-		<td>Base transactionnelle cluster</td>
-		<td>Base de production</td>
-		<td>MariaDB</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>10,1</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Données et contenu</td>
-		<td>Gestionnaire de données Relationnel</td>
-		<td>Base de données Géomatique</td>
-		<td>Information géographique</td>
-		<td>PostGIS</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>2.4.1</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Données et contenu</td>
-		<td>Gestionnaire de données Non relationnel</td>
-		<td>Base de données NoSQL</td>
-		<td>Base de données Document</td>
-		<td>MongoDB</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>3,4</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Composants logiciels Système et virtualisation</td>
-		<td>Système d’exploitation serveur</td>
-		<td>Distribution GNU/LINUX</td>
-		<td>En centre de production</td>
-		<td>CentOS (souche Redhat)</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>7,4</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Composants logiciels Système et virtualisation</td>
-		<td>Système d’exploitation serveur</td>
-		<td>Distribution GNU/LINUX</td>
-		<td>Services déconcentrés</td>
-		<td>Ubuntu – Eole</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>2,6</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Composants logiciels Système et virtualisation</td>
-		<td>Système d’exploitation serveur</td>
-		<td>Distribution GNU/LINUX</td>
-		<td>En centre de production</td>
-		<td>Debian</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>8</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Gestion d’exploitation</td>
-		<td>Gestion des logs en mode centralisé</td>
-		<td>&#xa0;</td>
-		<td>logstash / kibana</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>5,6</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Gestion d’exploitation</td>
-		<td>Gestion des logs en mode centralisé</td>
-		<td>&#xa0;</td>
-		<td>Syslog-ng</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Sauvegarde Serveur</td>
-		<td>Sauvegarde Serveurs (Postes possibles)</td>
-		<td>Services déconcentrés</td>
-		<td>BAREOS</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Disponibilité et continuité</td>
-		<td>Load Balancer</td>
-		<td>&#xa0;</td>
-		<td>HAProxy</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Disponibilité et continuité</td>
-		<td>Haute disponibilité (OS)</td>
-		<td>&#xa0;</td>
-		<td>Pacemaker – corosync</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Supervision et hypervision</td>
-		<td>Supervision Infrastructure et composants</td>
-		<td>&#xa0;</td>
-		<td>Nagios</td>
-		<td>FV</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Opérations</td>
-		<td>Supervision et hypervision</td>
-		<td>Supervision Infrastructure</td>
-		<td>&#xa0;</td>
-		<td>Centreon</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>2.8.x</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Données et contenu</td>
-		<td>Gestion des accès aux données</td>
-		<td>Partage de fichiers</td>
-		<td>Serveurs bureautiques</td>
-		<td>Samba 3</td>
-		<td>FV</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Données et contenu</td>
-		<td>Gestion des accès aux données</td>
-		<td>Partage de fichiers</td>
-		<td>En remplacement de Samba 3</td>
-		<td>Samba 4</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>4,7</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Sécurité</td>
-		<td>Antivirus et antimalware</td>
-		<td>Antivirus : Orienté serveur</td>
-		<td>Serveur Bureautique</td>
-		<td>ClamAV</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Sécurité</td>
-		<td>Habilitation</td>
-		<td>Annuaire</td>
-		<td>&#xa0;</td>
-		<td>OpenLdap</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>2,4</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Sécurité</td>
-		<td>Authentification</td>
-		<td>Authentification</td>
-		<td>&#xa0;</td>
-		<td>Samba Active Directory Domain Controller</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>4,7</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Sécurité</td>
-		<td>Authentification</td>
-		<td>Authentification SSO</td>
-		<td>&#xa0;</td>
-		<td>CAS_Server</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>5,1</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Sécurité</td>
-		<td>Authentification</td>
-		<td>Authentification SSO</td>
-		<td>SSO Web</td>
-		<td>LemonLDAP::NG</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Sécurité</td>
-		<td>Filtrage de contenu et pare-feu logiciel</td>
-		<td>Pare-feu réseau et web</td>
-		<td>Services déconcentrés</td>
-		<td>Eole AMON</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>2,6</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>Gestion des accès aux canaux</td>
-		<td>Serveur Web et 'Reverse Proxy'</td>
-		<td>Centres de production</td>
-		<td>Apache</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>Gestion des accès aux canaux</td>
-		<td>Reverse Proxy</td>
-		<td>Services déconcentrés</td>
-		<td>Nginx</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>Gestion des accès aux canaux</td>
-		<td>Proxy</td>
-		<td>&#xa0;</td>
-		<td>Squid</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Espace utilisateur et canal</td>
-		<td>Gestion des accès aux canaux</td>
-		<td>Cache web</td>
-		<td>&#xa0;</td>
-		<td>Varnish</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Orchestration et logique métier</td>
-		<td>Serveur d’application</td>
-		<td>Interface de programmation d'applications serveurs (SAPI)</td>
-		<td>&#xa0;</td>
-		<td>PHP-FPM</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Orchestration et logique métier</td>
-		<td>Serveur de mail</td>
-		<td>Serveur Messagerie</td>
-		<td>&#xa0;</td>
-		<td>Cyrus</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Orchestration et logique métier</td>
-		<td>Serveur de mail</td>
-		<td>Serveur SMTP</td>
-		<td>&#xa0;</td>
-		<td>Postfix</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Intégration et Échanges</td>
-		<td>Moniteur de transfert</td>
-		<td>Moniteur de transfert de fichiers</td>
-		<td>&#xa0;</td>
-		<td>Waarp</td>
-		<td>FV</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Intégration et Échanges</td>
-		<td>Serveur d’impression</td>
-		<td>Serveur d'impression</td>
-		<td>&#xa0;</td>
-		<td>Cups</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Composants logiciels Système et virtualisation</td>
-		<td>Virtualisation serveur</td>
-		<td>Hyperviseur</td>
-		<td>Virtualisation serveurs</td>
-		<td>KVM</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Composants logiciels Système et virtualisation</td>
-		<td>Virtualisation serveur</td>
-		<td>IaaS – 2 (gestion de l'infrastructure dynamique des ressources)</td>
-		<td>Infonuage</td>
-		<td>OpenStack</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Composants logiciels Système et virtualisation</td>
-		<td>Virtualisation serveur</td>
-		<td>Virtualisation de plateforme</td>
-		<td>Infrastructure virtuelle</td>
-		<td>OpenNebula</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>5,4</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Composants logiciels Système et virtualisation</td>
-		<td>Virtualisation stockage</td>
-		<td>Stockage objet</td>
-		<td>&#xa0;</td>
-		<td>Swift (OpenStack)</td>
-		<td>O</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Composants logiciels Système et virtualisation</td>
-		<td>Virtualisation stockage</td>
-		<td>Stockage bloc</td>
-		<td>&#xa0;</td>
-		<td>Ceph</td>
-		<td>O</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Composants logiciels Système et virtualisation</td>
-		<td>Outils système et virtualisation</td>
-		<td>Déploiement</td>
-		<td>&#xa0;</td>
-		<td>SaltStack</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Composants logiciels Système et virtualisation</td>
-		<td>Outils système et virtualisation</td>
-		<td>Déploiement</td>
-		<td>&#xa0;</td>
-		<td>Ansible</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Composants logiciels Système et virtualisation</td>
-		<td>Outils système et virtualisation</td>
-		<td>Déploiement</td>
-		<td>Découverte services</td>
-		<td>Consul</td>
-		<td>O</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Composants logiciels Système et virtualisation</td>
-		<td>Outils système et virtualisation</td>
-		<td>Déploiement</td>
-		<td>&#xa0;</td>
-		<td>Packer</td>
-		<td>O</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Composants logiciels Système et virtualisation</td>
-		<td>Outils système et virtualisation</td>
-		<td>Déploiement</td>
-		<td>Déploiement configuration</td>
-		<td>Rudder</td>
-		<td>O</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Composants logiciels Système et virtualisation</td>
-		<td>Outils système et virtualisation</td>
-		<td>Conteneurs logiciels.</td>
-		<td>&#xa0;</td>
-		<td>Docker</td>
-		<td>R</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Composants logiciels Système et virtualisation</td>
-		<td>Outils système et virtualisation</td>
-		<td>Automatisation déploiement et gestion de conteneurs</td>
-		<td>&#xa0;</td>
-		<td>Swarm</td>
-		<td>O</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Composants logiciels Système et virtualisation</td>
-		<td>Outils système et virtualisation</td>
-		<td>Automatisation déploiement et gestion de conteneurs</td>
-		<td>&#xa0;</td>
-		<td>Kubernetes</td>
-		<td>O</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-
-	      <tr>
-		<td>Composants logiciels Système et virtualisation</td>
-		<td>Outils système et virtualisation</td>
-		<td>Automatisation déploiement et gestion de conteneurs</td>
-		<td>&#xa0;</td>
-		<td>RunDeck</td>
-		<td>O</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>&#xa0;</td>
-		<td>Version Distribution</td>
-		<td>&#xa0;</td>
-		<td class="org-right">&#xa0;</td>
-		<td>&#xa0;</td>
-	      </tr>
-	    </tbody>
-	  </table>
-
-	</div>
-      </div>
-    </div>
-
-    <script type="text/javascript"> --
-      $(window).load(function () {>
-				  $('#nav a:first').tab('show');>
-				 });>
-    </script>>
-    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-    <script>
-      $(function(){
-	  $("#example").dataTable( {
-	      "oLanguage": {
- 		  "sUrl": "http://cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/French.json",
-	      },
-	      "iDisplayLength": 15});
-      })
-    </script>
-  </body>
+	    <table id="example" class="display" cellspacing="0" width="100%">
+	      <thead>
+		<tr>
+		  <th>Secteur</th>
+		  <th>Composant</th>
+		  <th>FONCTIONNALITÉ</th>
+		  <th>CAS D’USAGE</th>
+		  <th>LOGICIEL</th>
+		  <th>STATUT</th>
+		  <th>LICENCE</th>
+		  <th>LOGICIEL PARENT</th>
+		  <th>FORMAT ASSOCIÉ</th>
+		  <th>Win X86/x64</th>
+		  <th>Version</th>
+		  <th>LINUX MIMO</th>
+		  <th class="org-right">ANDROID</th>
+		  <th>VERSION FRANÇAISE</th>
+		</tr>
+	      </thead>
+	      <tbody>
+		<tr>
+		  <td>Sécurité</td>
+		  <td>authentification</td>
+		  <td>Gestion de mots de passe</td>
+		  <td>&#xa0;</td>
+		  <td>KeePass</td>
+		  <td>R</a></td>
+<td>GPL2</td>
+<td>&#xa0;</td>
+<td>KDB</td>
+<td>X</td>
+<td>2,3</td>
+<td>2,3</td>
+<td class="org-right">Keepass2 Android Offline</td>
+<td>X</td>
+</tr>
+
+<tr>
+  <td>Sécurité</td>
+  <td>chiffrement</td>
+  <td>Chiffrement de disques</td>
+  <td>&#xa0;</td>
+  <td>VeraCrypt</td>
+  <td>O</td>
+  <td>AGPL</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>1.18a</td>
+  <td>1.18a</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Sécurité</td>
+  <td>équipement de sécurité informatique</td>
+  <td>Effacement complet de tous les supports magnétiques d’une machine.</td>
+  <td>&#xa0;</td>
+  <td>DBAN «Darik's Boot and Nuke»</td>
+  <td>R</td>
+  <td>GPL2 / LGPL2</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>2.3.0</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>consultation et édition de document</td>
+  <td>Suite bureautique</td>
+  <td>&#xa0;</td>
+  <td>LibreOffice</td>
+  <td>R</td>
+  <td>MPL2</td>
+  <td>&#xa0;</td>
+  <td>ODF 1.2</td>
+  <td>2</td>
+  <td>5,4</td>
+  <td>5,4</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>consultation et édition de document</td>
+  <td><i>Diffusion multiformat</i></td>
+  <td>&#xa0;</td>
+  <td>MultiDiff</td>
+  <td>R</td>
+  <td>LGPL2.1</td>
+  <td>LibreOffice</td>
+  <td>&#xa0;</td>
+  <td>2</td>
+  <td>1.3.0</td>
+  <td>1.3.0</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>consultation et édition de document</td>
+  <td><i>Cartes géographie</i></td>
+  <td>&#xa0;</td>
+  <td>Ooo.HG</td>
+  <td>R</td>
+  <td>Creative Commons</td>
+  <td>LibreOffice</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>9,12</td>
+  <td>9,12</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>consultation et édition de document</td>
+  <td><i>Correction grammaticale</i></td>
+  <td>&#xa0;</td>
+  <td>Grammalecte</td>
+  <td>R</td>
+  <td>GPL3</td>
+  <td>LibreOffice</td>
+  <td>&#xa0;</td>
+  <td>2</td>
+  <td>0.6.1</td>
+  <td>0.6.1</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>consultation et édition de document</td>
+  <td><i>Syntaxe des formules</i></td>
+  <td>&#xa0;</td>
+  <td>Syntaxe des formules</td>
+  <td>R</td>
+  <td>BSD</td>
+  <td>LibreOffice</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>1,1</td>
+  <td>1,1</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>consultation et édition de document</td>
+  <td><i>Orientation de la page</i></td>
+  <td>&#xa0;</td>
+  <td>PortraitOrLandscape</td>
+  <td>R</td>
+  <td>LGPL3</td>
+  <td>LibreOffice</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>2</td>
+  <td>2</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>consultation et édition de document</td>
+  <td>Correction anglicismes</td>
+  <td>&#xa0;</td>
+  <td>FranceTerme</td>
+  <td>R</td>
+  <td>CECILL-C</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td class="org-right">Version distribution</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>consultation et édition de document</td>
+  <td>Éditeur de textes</td>
+  <td>&#xa0;</td>
+  <td>Notepad++</td>
+  <td>R</td>
+  <td>GPL</td>
+  <td>&#xa0;</td>
+  <td>TXT</td>
+  <td>X</td>
+  <td>7.5.3</td>
+  <td>i</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>consultation et édition de document</td>
+  <td>Lecture simple de fichier PDF</td>
+  <td>sans remplissage de formulaire ni vérification de signature</td>
+  <td>SumatraPDF</td>
+  <td>R</td>
+  <td>GPL3</td>
+  <td>&#xa0;</td>
+  <td>PDF</td>
+  <td>X</td>
+  <td>3.1.2</td>
+  <td>utiliser Evince</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>consultation et édition de document</td>
+  <td>Outil de fusion, extraction et découpage de fichiers PDF. Permet aussi de changer le sens des pages.</td>
+  <td>nécessite JRE 8 minimum</td>
+  <td>PDFSam Basic</td>
+  <td>O</td>
+  <td>AGPL3</td>
+  <td>&#xa0;</td>
+  <td>PDF</td>
+  <td>X</td>
+  <td>3.3.2</td>
+  <td>3.3.2</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>consultation et édition de document</td>
+  <td>Éditeur HTML</td>
+  <td>&#xa0;</td>
+  <td>BlueGriffon</td>
+  <td>R</td>
+  <td>LGPL/GPL/MPL</td>
+  <td>&#xa0;</td>
+  <td>HTML</td>
+  <td>X</td>
+  <td>3.0'</td>
+  <td>3.0'</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>consultation et édition de document</td>
+  <td>Système d’information géographique</td>
+  <td>&#xa0;</td>
+  <td>Qgis</td>
+  <td>R</td>
+  <td>GPL</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>2,18</td>
+  <td>2,18</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>consultation et édition de document</td>
+  <td>PAO</td>
+  <td>&#xa0;</td>
+  <td>Scribus</td>
+  <td>R</td>
+  <td>GPL2</td>
+  <td>&#xa0;</td>
+  <td>SLA</td>
+  <td>X</td>
+  <td>1,4</td>
+  <td>1,4</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>consultation et édition de document</td>
+  <td>Lecteur multimédia</td>
+  <td>&#xa0;</td>
+  <td>VLC</td>
+  <td>R</td>
+  <td>GPL</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>2.2.6</td>
+  <td>2.2.6</td>
+  <td class="org-right">2,06</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>consultation et édition de document</td>
+  <td>Montage vidéo</td>
+  <td>&#xa0;</td>
+  <td>Avidemux</td>
+  <td>O</td>
+  <td>GPL2</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>2,6</td>
+  <td>2,6</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>consultation et édition de document</td>
+  <td>Enregistrement et édition de sons</td>
+  <td>&#xa0;</td>
+  <td>Audacity</td>
+  <td>R</td>
+  <td>GPL2</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>2,1</td>
+  <td>2,1</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>consultation et édition de document</td>
+  <td>Dessin (vectoriel)</td>
+  <td>&#xa0;</td>
+  <td>Inkscape</td>
+  <td>O</td>
+  <td>GPL</td>
+  <td>&#xa0;</td>
+  <td>SVG</td>
+  <td>X</td>
+  <td>0,91</td>
+  <td>0,91</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>consultation et édition de document</td>
+  <td>Dessin (matriciel)</td>
+  <td>&#xa0;</td>
+  <td>The Gimp</td>
+  <td>R</td>
+  <td>GPL3</td>
+  <td>&#xa0;</td>
+  <td>XCF</td>
+  <td>X</td>
+  <td>2.8.22</td>
+  <td>2.8.22</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>consultation et édition de document</td>
+  <td>Lecteur de fichiers ODF sous Android</td>
+  <td>&#xa0;</td>
+  <td>OpenDocument Reader</td>
+  <td>R</td>
+  <td>GPL</td>
+  <td>&#xa0;</td>
+  <td>ODF</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td class="org-right">2,14</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>consultation et édition de document</td>
+  <td>Lecteur de fichiers PDF sous Android</td>
+  <td>&#xa0;</td>
+  <td>MuPDF</td>
+  <td>R</td>
+  <td>GPL</td>
+  <td>&#xa0;</td>
+  <td>PDF</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td class="org-right">1,11</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>consultation et édition de document</td>
+  <td>Schémas</td>
+  <td>&#xa0;</td>
+  <td>Dia</td>
+  <td>R</td>
+  <td>GPL2</td>
+  <td>&#xa0;</td>
+  <td>nombreux</td>
+  <td>X</td>
+  <td>0,97</td>
+  <td>0,97</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>messagerie et agenda et contact</td>
+  <td>Courrielleur</td>
+  <td>&#xa0;</td>
+  <td>Thunderbird</td>
+  <td>R</td>
+  <td>MPL2</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>52</td>
+  <td>52</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>messagerie et agenda et contact</td>
+  <td>Client de messagerie</td>
+  <td>&#xa0;</td>
+  <td>RoundCube</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>1.4.1</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>messagerie et agenda et contact</td>
+  <td>Client de messagerie instantanée</td>
+  <td>&#xa0;</td>
+  <td>Jitsi</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>2,8</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>messagerie et agenda et contact</td>
+  <td>Client FTP</td>
+  <td>&#xa0;</td>
+  <td>Filezilla</td>
+  <td>R</td>
+  <td>GPL</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>3,27</td>
+  <td>3,27</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>navigateur web</td>
+  <td>Navigateur</td>
+  <td>&#xa0;</td>
+  <td>Firefox ESR</td>
+  <td>R</td>
+  <td>MPL2</td>
+  <td>&#xa0;</td>
+  <td>HTML</td>
+  <td>X</td>
+  <td>ESR 52</td>
+  <td>ESR 52</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>navigateur web</td>
+  <td>Pour voir une page dans Firefox avec le rendu IE</td>
+  <td>&#xa0;</td>
+  <td>IE Tab V2</td>
+  <td>R</td>
+  <td>GPL V.2.1</td>
+  <td>Firefox</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>6,2</td>
+  <td>non</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>navigateur web</td>
+  <td>Pour utiliser ses codes</td>
+  <td>&#xa0;</td>
+  <td>KeeFox</td>
+  <td>O</td>
+  <td>GPL V2.0</td>
+  <td>Firefox</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>1.7.2</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>navigateur web</td>
+  <td>Bloqueur des publicités et des pisteurs</td>
+  <td>&#xa0;</td>
+  <td>Ublock Origin</td>
+  <td>R</td>
+  <td>GPL3</td>
+  <td>Firefox</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>1</td>
+  <td>1</td>
+  <td class="org-right">1</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>navigateur web</td>
+  <td>Correction grammaticale</td>
+  <td>&#xa0;</td>
+  <td>Grammalecte</td>
+  <td>R</td>
+  <td>GPL3</td>
+  <td>Firefox</td>
+  <td>&#xa0;</td>
+  <td>2</td>
+  <td>0.5.x</td>
+  <td>0.5x</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>navigateur web</td>
+  <td>Recherche sur internet</td>
+  <td>&#xa0;</td>
+  <td>Qwant</td>
+  <td>R</td>
+  <td>Licence MIT/X11</td>
+  <td>Firefox</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>3</td>
+  <td>3</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>accessibilité</td>
+  <td>Lecteur d’écran</td>
+  <td>&#xa0;</td>
+  <td>NVDA</td>
+  <td>R</td>
+  <td>GPL2</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>2016,3</td>
+  <td>0</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>outils de productivité</td>
+  <td>Grapheur d'idées</td>
+  <td>&#xa0;</td>
+  <td>Freeplane</td>
+  <td>R</td>
+  <td>GPL2</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>1,6</td>
+  <td>1,5</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>outils de productivité</td>
+  <td>Gestion de projet</td>
+  <td>nécessite une version JAVA 32 bits</td>
+  <td>ProjectLibre</td>
+  <td>R</td>
+  <td>CPA</td>
+  <td>&#xa0;</td>
+  <td>POD et XML</td>
+  <td>X</td>
+  <td>1,7</td>
+  <td>1,7</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Données et contenu</td>
+  <td>compression et décompression</td>
+  <td>Compression</td>
+  <td>&#xa0;</td>
+  <td>7zip</td>
+  <td>R</td>
+  <td>LGPL V2</td>
+  <td>&#xa0;</td>
+  <td>nombreux</td>
+  <td>X</td>
+  <td>16,04</td>
+  <td>i</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Équipements matériels</td>
+  <td>périphérique</td>
+  <td>Capture d'écran</td>
+  <td>&#xa0;</td>
+  <td>GreenShot</td>
+  <td>R</td>
+  <td>GPL</td>
+  <td>&#xa0;</td>
+  <td>nombreux</td>
+  <td>X</td>
+  <td>1.2.9</td>
+  <td>i</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>gestion de stockage</td>
+  <td>Défragmentation</td>
+  <td>&#xa0;</td>
+  <td>UltraDefrag</td>
+  <td>R</td>
+  <td>GPL</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>7</td>
+  <td>i</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>gestion de stockage</td>
+  <td>Création de DVD vidéo avec un menu de navigation.</td>
+  <td>&#xa0;</td>
+  <td>DVD Styler</td>
+  <td>O</td>
+  <td>GPL</td>
+  <td>&#xa0;</td>
+  <td>nombreux</td>
+  <td>X</td>
+  <td>3.0.4</td>
+  <td>3.0.4</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>synchronisation, réplication et déduplication</td>
+  <td>Renommage de fichiers par lots</td>
+  <td>&#xa0;</td>
+  <td>Metamorphose</td>
+  <td>O</td>
+  <td>GPL2</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>1,1</td>
+  <td>1,1</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>synchronisation, réplication et déduplication</td>
+  <td>Synchronisation Sauvegarde</td>
+  <td>&#xa0;</td>
+  <td>FreeFileSync</td>
+  <td>R</td>
+  <td>GPL3</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>9,5</td>
+  <td>9,5</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Déploiement Gestion d’actif et de configuration</td>
+  <td>Inventaire, télédéploiement et découverte du réseau</td>
+  <td>&#xa0;</td>
+  <td>OCS Inventory NG serveur</td>
+  <td>R</td>
+  <td>GPL2</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>2,3</td>
+  <td>2,3</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Déploiement Gestion d’actif et de configuration</td>
+  <td>Inventaire, télédéploiement et découverte du réseau</td>
+  <td>&#xa0;</td>
+  <td>Agent OCS</td>
+  <td>R</td>
+  <td>GPL2</td>
+  <td>OCS</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>2,3</td>
+  <td>2,3</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Déploiement Gestion d’actif et de configuration</td>
+  <td><i>Récupérer les informations de sécurité</i></td>
+  <td>&#xa0;</td>
+  <td>Security</td>
+  <td>O</td>
+  <td>GPL2</td>
+  <td>OCS</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Déploiement Gestion d’actif et de configuration</td>
+  <td><i>Récupérer les informations d'un logiciel spécifique dans un fichier texte</i></td>
+  <td>&#xa0;</td>
+  <td>CustomAppli/fr</td>
+  <td>O</td>
+  <td>GPL2</td>
+  <td>OCS</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Déploiement Gestion d’actif et de configuration</td>
+  <td><i>Récupérer les licences Office</i></td>
+  <td>&#xa0;</td>
+  <td>MSOfficeKeys</td>
+  <td>O</td>
+  <td>GPL2</td>
+  <td>OCS</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Déploiement Gestion d’actif et de configuration</td>
+  <td><i>Récupérer la liste des services et leur état</i></td>
+  <td>&#xa0;</td>
+  <td>WinServices/fr</td>
+  <td>O</td>
+  <td>GPL2</td>
+  <td>OCS</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>&#xa0;</td>
+  <td>2,1</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Déploiement Gestion d’actif et de configuration</td>
+  <td>Gestion de parc et suivi d'incidents</td>
+  <td>&#xa0;</td>
+  <td>GLPI</td>
+  <td>R</td>
+  <td>GPL2</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>9.1.6</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Déploiement Gestion d’actif et de configuration</td>
+  <td><i>Rapports supplémentaires à ceux inclus dans GLPI</i></td>
+  <td>&#xa0;</td>
+  <td>Reports(rapports)</td>
+  <td>R</td>
+  <td>AGPL3</td>
+  <td>GLPI</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>1,10</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Déploiement Gestion d’actif et de configuration</td>
+  <td><i>Export en pdf des fiches GLPI</i></td>
+  <td>&#xa0;</td>
+  <td>PDF (impression de pdf)</td>
+  <td>R</td>
+  <td>AGPL3</td>
+  <td>GLPI</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>1,2</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Déploiement Gestion d’actif et de configuration</td>
+  <td><i>Serveur de services web permettant à une application externe d'interroger et de piloter GLPI</i></td>
+  <td>&#xa0;</td>
+  <td>WebService</td>
+  <td>R</td>
+  <td>AGPL3</td>
+  <td>GLPI</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>1,7</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Déploiement Gestion d’actif et de configuration</td>
+  <td><i>Automatisation de l'import OCS Inventory-NG</i></td>
+  <td>Gestion parc</td>
+  <td>OCS Inventory ng</td>
+  <td>R</td>
+  <td>GPL2+</td>
+  <td>GLPI</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>1.4.3</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Déploiement Gestion d’actif et de configuration</td>
+  <td><i>Inventaire, télédéploiement et découverte du réseau</i></td>
+  <td>&#xa0;</td>
+  <td>FusionInventory</td>
+  <td>O</td>
+  <td>AGPL3+</td>
+  <td>GLPI</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>9.1+1.1</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Déploiement Gestion d’actif et de configuration</td>
+  <td><i>Affichage de GLPI pour terminaux mobiles et tablettes</i></td>
+  <td>&#xa0;</td>
+  <td>Mobile</td>
+  <td>O</td>
+  <td>GPL2+</td>
+  <td>GLPI</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>&#xa0;</td>
+  <td>1.1.6</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Déploiement Gestion d’actif et de configuration</td>
+  <td><i>Déinstallation d’objets inventoriés</i></td>
+  <td>&#xa0;</td>
+  <td>Uninstall</td>
+  <td>R</td>
+  <td>GPL2+</td>
+  <td>GLPI</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>0.90 1.4</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Déploiement Gestion d’actif et de configuration</td>
+  <td><i>Gestion des stocks et demandes par une entité différente de celles définies pour la délégation de gestion</i></td>
+  <td>&#xa0;</td>
+  <td>Geststock</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>GLPI</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>1.0.0</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Déploiement Gestion d’actif et de configuration</td>
+  <td><i>Injection de données dans GLPI à l'aide de fichiers CSV</i></td>
+  <td>&#xa0;</td>
+  <td>Data Injection</td>
+  <td>R</td>
+  <td>GPL2+</td>
+  <td>GLPI</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>2.4.2</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Déploiement Gestion d’actif et de configuration</td>
+  <td><i>Notifications supplémentaires à celles incluses dans GLPI</i></td>
+  <td>Gestion des tickets</td>
+  <td>Additional Alerts</td>
+  <td>R</td>
+  <td>GPL2+</td>
+  <td>GLPI</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>1.9.0</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Déploiement Gestion d’actif et de configuration</td>
+  <td><i>Escalade de tickets</i></td>
+  <td>&#xa0;</td>
+  <td>Escalation</td>
+  <td>R</td>
+  <td>GPL2+</td>
+  <td>GLPI</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>0.85+1.0</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Déploiement Gestion d’actif et de configuration</td>
+  <td><i>Options de configuration supplémentaires</i></td>
+  <td>&#xa0;</td>
+  <td>Behaviors(Comportements)</td>
+  <td>R</td>
+  <td>AGPL3</td>
+  <td>GLPI</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>1.6.0</td>
+  <td class="org-right">&#xa0;</td>
+  <td>X</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Service Level Management</td>
+  <td><i>Affichage graphique des délais de prise en compte des incidents + indicateurs sous forme de rapports</i></td>
+  <td>&#xa0;</td>
+  <td>TimeLineTicket</td>
+  <td>O</td>
+  <td>GPL2+</td>
+  <td>GLPI</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Environnement de développement intégré (IDE)</td>
+  <td>Environnement de développement</td>
+  <td>&#xa0;</td>
+  <td>Eclipse</td>
+  <td>R</td>
+  <td>EPL</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>4,7</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Environnement de développement intégré (IDE)</td>
+  <td><i>Plugin de génération de tout ou partie du code</i></td>
+  <td>&#xa0;</td>
+  <td>Acceleo</td>
+  <td>R</td>
+  <td>EPL</td>
+  <td>Eclipse</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>3.7.2</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Environnement de développement intégré (IDE)</td>
+  <td>Environnement de développement</td>
+  <td>&#xa0;</td>
+  <td>Visual Studio Code</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>Version Distribution</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Développement d’application web</td>
+  <td>Aide au développement</td>
+  <td>&#xa0;</td>
+  <td>Spring Boot</td>
+  <td>O</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>1.5.8</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Développement d’application web</td>
+  <td>Environnement d'exécution</td>
+  <td>&#xa0;</td>
+  <td>OpenJDK</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>8</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Gestion des Anomalies</td>
+  <td>Outil de remontée de bug</td>
+  <td>&#xa0;</td>
+  <td>Mantis BT</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>1.X</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Gestion du code source</td>
+  <td>Outil de gestion des configurations (serveur)</td>
+  <td>&#xa0;</td>
+  <td>Git</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>Version</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Installation, Package, Diffusion et Distribution</td>
+  <td>Outil de gestion des dépendances entre les différents composants d'un projet et cycle de vie</td>
+  <td>&#xa0;</td>
+  <td>Maven</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>3.5.2</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Installation, Package, Diffusion et Distribution</td>
+  <td>Outil de gestion des dépendances</td>
+  <td>&#xa0;</td>
+  <td>Yarn</td>
+  <td>O</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>1.3.2</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Installation, Package, Diffusion et Distribution</td>
+  <td>Dépôt d'artéfacts</td>
+  <td>&#xa0;</td>
+  <td>Nexus</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>3,4</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Installation, Package, Diffusion et Distribution</td>
+  <td>Gestionnaire de paquets pour Node.js</td>
+  <td>&#xa0;</td>
+  <td>NPM</td>
+  <td>O</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>3.10.X</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Outils d’analyse, de modélisation et de gestion du patrimoine</td>
+  <td>Outil de maquettage IHM (statique et/ou dynamique)</td>
+  <td>&#xa0;</td>
+  <td>Pencil</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>3,0</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Qualité et sécurité du code source</td>
+  <td>Tableau de bord d'indicateurs de qualité</td>
+  <td>&#xa0;</td>
+  <td>SonarQube et plugins FindBugs Checkstyle PMD</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>6,3</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Qualité et sécurité du code source</td>
+  <td>Vérification de la conformité de l'application aux règles d'accessibilité</td>
+  <td>&#xa0;</td>
+  <td>Asqatasun</td>
+  <td>O</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>4.0.3</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Qualité et sécurité du code source</td>
+  <td>Vérification de la conformité de l'application aux règles d'accessibilité</td>
+  <td>&#xa0;</td>
+  <td>Tanaguru</td>
+  <td>O</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>4.0.3</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Qualité et sécurité du code source</td>
+  <td>Couverture du code</td>
+  <td>&#xa0;</td>
+  <td>JaCoCo</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>0.7.9</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Test et intégration</td>
+  <td>Outil de gestion des tests unitaires</td>
+  <td>&#xa0;</td>
+  <td>JUnit</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>4,12</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Test et intégration</td>
+  <td>Outil d'injection afin tester les couches basses</td>
+  <td>&#xa0;</td>
+  <td>Fitnesse</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>20161106</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Test et intégration</td>
+  <td>Outil d'injection afin tester les couches basses</td>
+  <td>&#xa0;</td>
+  <td>DbFit</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>3.2.0</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Test et intégration</td>
+  <td>Robot de test / Injecteurs</td>
+  <td>&#xa0;</td>
+  <td>Jmeter</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>3,1</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Test et intégration</td>
+  <td>Outil d'aide aux tests techniques</td>
+  <td>Tests orientés Web Services</td>
+  <td>SoapUI</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>5.2.x</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Test et intégration</td>
+  <td>Outil d'aide à la livraison (dépôt, intégration continue&#x2026;)</td>
+  <td>&#xa0;</td>
+  <td>Jenkins</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>2.x</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Test et intégration</td>
+  <td>Automatisation des tests Web</td>
+  <td>&#xa0;</td>
+  <td>Selenium Server</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>3,0</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Test et intégration</td>
+  <td>Automatisation des tests Web</td>
+  <td>&#xa0;</td>
+  <td>Selenium IDE</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>Firefox</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>2,9</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Test et intégration</td>
+  <td>Automatisation des tests</td>
+  <td>&#xa0;</td>
+  <td>Squash TA</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Test et intégration</td>
+  <td>Gestion des campagnes de tests</td>
+  <td>&#xa0;</td>
+  <td>TestLink</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>1.9.14</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Test et intégration</td>
+  <td>Gestion des campagnes de tests</td>
+  <td>&#xa0;</td>
+  <td>Squash TM</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>1.14.0</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Test et intégration</td>
+  <td>Génération / Gestion des jeux de données</td>
+  <td>&#xa0;</td>
+  <td>Jailer</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>5.5.2</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Test et intégration</td>
+  <td>Navigateur web</td>
+  <td>poste développeur</td>
+  <td>Chromium</td>
+  <td>O</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>Version Distribution</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Test et intégration</td>
+  <td>Base de données</td>
+  <td>poste développeur</td>
+  <td>H2 Database Engine</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>1.4.196</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Test et intégration</td>
+  <td>Outil de monitoring</td>
+  <td>&#xa0;</td>
+  <td>JavaMelody</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>1,70</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Conception et développement</td>
+  <td>Test et intégration</td>
+  <td>Reprise des données</td>
+  <td>Outil d'automatisation de la reprise de données</td>
+  <td>"Talend Open Studio for Data Integration (Basic)"</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>6.3.x</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Orchestration et logique métier</td>
+  <td>Outil collaboratif</td>
+  <td>Portail de gestion de projet</td>
+  <td>&#xa0;</td>
+  <td>Redmine</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>3.X</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Orchestration et logique métier</td>
+  <td>Outil collaboratif</td>
+  <td>Plateforme de développement</td>
+  <td>&#xa0;</td>
+  <td>GitLab Community Edition</td>
+  <td>O</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>9.0.10</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Orchestration et logique métier</td>
+  <td>Outil collaboratif</td>
+  <td>Outil pour améliorer la collaboration entre les différentes parties prenantes</td>
+  <td>Utilisé au sein d'une forge Gestion des droits délégués à la forge</td>
+  <td>MediaWiki</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>1.25.2</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Orchestration et logique métier</td>
+  <td>Outil collaboratif</td>
+  <td>Forum</td>
+  <td>Utilisé au sein d'une forge</td>
+  <td>phpBB</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>3.0.9</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Orchestration et logique métier</td>
+  <td>Outil collaboratif</td>
+  <td>Messagerie instantanée</td>
+  <td>&#xa0;</td>
+  <td>RocketChat</td>
+  <td>O</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>Version Distribution</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Orchestration et logique métier</td>
+  <td>Moteur de recherche</td>
+  <td>Indexation et recherche plein texte</td>
+  <td>En mode cluster</td>
+  <td>ElasticSearch</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>5,6</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Orchestration et logique métier</td>
+  <td>Moteur de recherche</td>
+  <td>Indexation et recherche plein texte</td>
+  <td>Limité à 1 serveur</td>
+  <td>Apache SolR</td>
+  <td>FV</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Orchestration et logique métier</td>
+  <td>Serveur d’application</td>
+  <td>Serveur Java</td>
+  <td>&#xa0;</td>
+  <td>Tomcat</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>7.x</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Orchestration et logique métier</td>
+  <td>Serveur d’application</td>
+  <td>Plateforme Javascript</td>
+  <td>&#xa0;</td>
+  <td>serveur NodeJS</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>X</td>
+  <td>6.X</td>
+  <td>X</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Données et contenu</td>
+  <td>Gestionnaire de données Relationnel</td>
+  <td>Base de données transactionnelle</td>
+  <td>Base de production</td>
+  <td>PostgreSQL</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>9,5</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Données et contenu</td>
+  <td>Gestionnaire de données Relationnel</td>
+  <td>Base transactionnelle cluster</td>
+  <td>Base de production</td>
+  <td>MariaDB</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>10,1</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Données et contenu</td>
+  <td>Gestionnaire de données Relationnel</td>
+  <td>Base de données Géomatique</td>
+  <td>Information géographique</td>
+  <td>PostGIS</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>2.4.1</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Données et contenu</td>
+  <td>Gestionnaire de données Non relationnel</td>
+  <td>Base de données NoSQL</td>
+  <td>Base de données Document</td>
+  <td>MongoDB</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>3,4</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Composants logiciels Système et virtualisation</td>
+  <td>Système d’exploitation serveur</td>
+  <td>Distribution GNU/LINUX</td>
+  <td>En centre de production</td>
+  <td>CentOS (souche Redhat)</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>7,4</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Composants logiciels Système et virtualisation</td>
+  <td>Système d’exploitation serveur</td>
+  <td>Distribution GNU/LINUX</td>
+  <td>Services déconcentrés</td>
+  <td>Ubuntu – Eole</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>2,6</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Composants logiciels Système et virtualisation</td>
+  <td>Système d’exploitation serveur</td>
+  <td>Distribution GNU/LINUX</td>
+  <td>En centre de production</td>
+  <td>Debian</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>8</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Gestion d’exploitation</td>
+  <td>Gestion des logs en mode centralisé</td>
+  <td>&#xa0;</td>
+  <td>logstash / kibana</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>5,6</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Gestion d’exploitation</td>
+  <td>Gestion des logs en mode centralisé</td>
+  <td>&#xa0;</td>
+  <td>Syslog-ng</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Sauvegarde Serveur</td>
+  <td>Sauvegarde Serveurs (Postes possibles)</td>
+  <td>Services déconcentrés</td>
+  <td>BAREOS</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Disponibilité et continuité</td>
+  <td>Load Balancer</td>
+  <td>&#xa0;</td>
+  <td>HAProxy</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Disponibilité et continuité</td>
+  <td>Haute disponibilité (OS)</td>
+  <td>&#xa0;</td>
+  <td>Pacemaker – corosync</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Supervision et hypervision</td>
+  <td>Supervision Infrastructure et composants</td>
+  <td>&#xa0;</td>
+  <td>Nagios</td>
+  <td>FV</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Opérations</td>
+  <td>Supervision et hypervision</td>
+  <td>Supervision Infrastructure</td>
+  <td>&#xa0;</td>
+  <td>Centreon</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>2.8.x</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Données et contenu</td>
+  <td>Gestion des accès aux données</td>
+  <td>Partage de fichiers</td>
+  <td>Serveurs bureautiques</td>
+  <td>Samba 3</td>
+  <td>FV</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Données et contenu</td>
+  <td>Gestion des accès aux données</td>
+  <td>Partage de fichiers</td>
+  <td>En remplacement de Samba 3</td>
+  <td>Samba 4</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>4,7</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Sécurité</td>
+  <td>Antivirus et antimalware</td>
+  <td>Antivirus : Orienté serveur</td>
+  <td>Serveur Bureautique</td>
+  <td>ClamAV</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Sécurité</td>
+  <td>Habilitation</td>
+  <td>Annuaire</td>
+  <td>&#xa0;</td>
+  <td>OpenLdap</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>2,4</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Sécurité</td>
+  <td>Authentification</td>
+  <td>Authentification</td>
+  <td>&#xa0;</td>
+  <td>Samba Active Directory Domain Controller</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>4,7</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Sécurité</td>
+  <td>Authentification</td>
+  <td>Authentification SSO</td>
+  <td>&#xa0;</td>
+  <td>CAS_Server</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>5,1</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Sécurité</td>
+  <td>Authentification</td>
+  <td>Authentification SSO</td>
+  <td>SSO Web</td>
+  <td>LemonLDAP::NG</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Sécurité</td>
+  <td>Filtrage de contenu et pare-feu logiciel</td>
+  <td>Pare-feu réseau et web</td>
+  <td>Services déconcentrés</td>
+  <td>Eole AMON</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>2,6</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>Gestion des accès aux canaux</td>
+  <td>Serveur Web et 'Reverse Proxy'</td>
+  <td>Centres de production</td>
+  <td>Apache</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>Gestion des accès aux canaux</td>
+  <td>Reverse Proxy</td>
+  <td>Services déconcentrés</td>
+  <td>Nginx</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>Gestion des accès aux canaux</td>
+  <td>Proxy</td>
+  <td>&#xa0;</td>
+  <td>Squid</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Espace utilisateur et canal</td>
+  <td>Gestion des accès aux canaux</td>
+  <td>Cache web</td>
+  <td>&#xa0;</td>
+  <td>Varnish</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Orchestration et logique métier</td>
+  <td>Serveur d’application</td>
+  <td>Interface de programmation d'applications serveurs (SAPI)</td>
+  <td>&#xa0;</td>
+  <td>PHP-FPM</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Orchestration et logique métier</td>
+  <td>Serveur de mail</td>
+  <td>Serveur Messagerie</td>
+  <td>&#xa0;</td>
+  <td>Cyrus</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Orchestration et logique métier</td>
+  <td>Serveur de mail</td>
+  <td>Serveur SMTP</td>
+  <td>&#xa0;</td>
+  <td>Postfix</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Intégration et Échanges</td>
+  <td>Moniteur de transfert</td>
+  <td>Moniteur de transfert de fichiers</td>
+  <td>&#xa0;</td>
+  <td>Waarp</td>
+  <td>FV</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Intégration et Échanges</td>
+  <td>Serveur d’impression</td>
+  <td>Serveur d'impression</td>
+  <td>&#xa0;</td>
+  <td>Cups</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Composants logiciels Système et virtualisation</td>
+  <td>Virtualisation serveur</td>
+  <td>Hyperviseur</td>
+  <td>Virtualisation serveurs</td>
+  <td>KVM</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Composants logiciels Système et virtualisation</td>
+  <td>Virtualisation serveur</td>
+  <td>IaaS – 2 (gestion de l'infrastructure dynamique des ressources)</td>
+  <td>Infonuage</td>
+  <td>OpenStack</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Composants logiciels Système et virtualisation</td>
+  <td>Virtualisation serveur</td>
+  <td>Virtualisation de plateforme</td>
+  <td>Infrastructure virtuelle</td>
+  <td>OpenNebula</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>5,4</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Composants logiciels Système et virtualisation</td>
+  <td>Virtualisation stockage</td>
+  <td>Stockage objet</td>
+  <td>&#xa0;</td>
+  <td>Swift (OpenStack)</td>
+  <td>O</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Composants logiciels Système et virtualisation</td>
+  <td>Virtualisation stockage</td>
+  <td>Stockage bloc</td>
+  <td>&#xa0;</td>
+  <td>Ceph</td>
+  <td>O</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Composants logiciels Système et virtualisation</td>
+  <td>Outils système et virtualisation</td>
+  <td>Déploiement</td>
+  <td>&#xa0;</td>
+  <td>SaltStack</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Composants logiciels Système et virtualisation</td>
+  <td>Outils système et virtualisation</td>
+  <td>Déploiement</td>
+  <td>&#xa0;</td>
+  <td>Ansible</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Composants logiciels Système et virtualisation</td>
+  <td>Outils système et virtualisation</td>
+  <td>Déploiement</td>
+  <td>Découverte services</td>
+  <td>Consul</td>
+  <td>O</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Composants logiciels Système et virtualisation</td>
+  <td>Outils système et virtualisation</td>
+  <td>Déploiement</td>
+  <td>&#xa0;</td>
+  <td>Packer</td>
+  <td>O</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Composants logiciels Système et virtualisation</td>
+  <td>Outils système et virtualisation</td>
+  <td>Déploiement</td>
+  <td>Déploiement configuration</td>
+  <td>Rudder</td>
+  <td>O</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Composants logiciels Système et virtualisation</td>
+  <td>Outils système et virtualisation</td>
+  <td>Conteneurs logiciels.</td>
+  <td>&#xa0;</td>
+  <td>Docker</td>
+  <td>R</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Composants logiciels Système et virtualisation</td>
+  <td>Outils système et virtualisation</td>
+  <td>Automatisation déploiement et gestion de conteneurs</td>
+  <td>&#xa0;</td>
+  <td>Swarm</td>
+  <td>O</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Composants logiciels Système et virtualisation</td>
+  <td>Outils système et virtualisation</td>
+  <td>Automatisation déploiement et gestion de conteneurs</td>
+  <td>&#xa0;</td>
+  <td>Kubernetes</td>
+  <td>O</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+
+<tr>
+  <td>Composants logiciels Système et virtualisation</td>
+  <td>Outils système et virtualisation</td>
+  <td>Automatisation déploiement et gestion de conteneurs</td>
+  <td>&#xa0;</td>
+  <td>RunDeck</td>
+  <td>O</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>&#xa0;</td>
+  <td>Version Distribution</td>
+  <td>&#xa0;</td>
+  <td class="org-right">&#xa0;</td>
+  <td>&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+
+<script type="text/javascript"> --
+  $(window).load(function () {>
+			      $('#nav a:first').tab('show');>
+			     });>
+</script>>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script>
+  $(function(){
+      $("#example").dataTable( {
+	  "oLanguage": {
+ 	      "sUrl": "http://cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/French.json",
+	  },
+	  "iDisplayLength": 15});
+  })
+</script>
+</body>
 </html>
