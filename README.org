@@ -1,13 +1,14 @@
 #+title: Socle interministériel des logiciels libres
 
-Présentation HTML du Socle interministériel des logiciels libres.
+Présentation HTML du Socle interministériel des logiciels libres 2018.
 
 - La [[https://references.modernisation.gouv.fr/socle-logiciels-libres][page du SILL]]
-- Le [[https://references.modernisation.gouv.fr/sites/default/files/SILL%25202018%2520-%2520socle%2520interministeriel%2520de%2520logiciels%2520libres.pdf][PDF]] source
-- Le tableau [[file:sill.org][sill.org]] avec une section par secteur
-- Le tableau [[file:sources.org][sources.org]] contenant l’ensemble
+- Le fichier [[https://references.modernisation.gouv.fr/sites/default/files/SILL%25202018%2520-%2520socle%2520interministeriel%2520de%2520logiciels%2520libres.pdf][PDF]] source des données
+- Une version [[file:sources.csv][csv]] de ce fichier PDF
+- Le [[file:sill.org][sill.org]] avec une section par « secteur »
+- Un tableau [[file:sources.org][sources.org]] présentant l’ensemble
 
-La présentation HTML en ligne.
+Et la présentation [[https://entrepreneur-interet-general.github.io/sill/][HTML en ligne]].
 
 
 
