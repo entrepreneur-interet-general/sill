@@ -1,5 +1,5 @@
 Secteur,Composant,FONCTIONNALITÉ,CAS D’USAGE,LOGICIEL,STATUT,LICENCE,LOGICIEL PARENT,FORMAT ASSOCIÉ,Win X86/x64,Version,LINUX MIMO,ANDROID,VERSION FRANÇAISE
-Sécurité,authentification,Gestion de mots de passe,,KeePass,R,GPL2,,KDB,X,2.3,2.3,Keepass2 Android Offline,X
+Sécurité,Authentification,Gestion de mots de passe,,KeePass,R,GPL2,,KDB,X,2.3,2.3,Keepass2 Android Offline,X
 Sécurité,chiffrement,Chiffrement de disques,,VeraCrypt,O,AGPL,,,X,1.18a,1.18a,,X
 Sécurité,équipement de sécurité informatique,Effacement complet de tous les supports magnétiques d’une machine.,,DBAN «Darik's Boot and Nuke»,R,GPL2 / LGPL2,,,,,2.3.0,,
 Espace utilisateur et canal,consultation et édition de document,Suite bureautique,,LibreOffice,R,MPL2,,ODF 1.2,2,5.4,5.4,,X
