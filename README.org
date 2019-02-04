@@ -1,8 +1,8 @@
 #+title: Socle interministériel des logiciels libres
 
-Ce dépôt est archivé.
+Ce dépôt est *archivé*, il est accessible en lecture seule.
 
-Il est maintenu sur https://github.com/etalab/SILL.
+Il est maintenu sur https://github.com/DISIC/SILL.
 
 Présentation HTML du Socle interministériel des logiciels libres 2018.
 
